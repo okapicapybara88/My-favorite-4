@@ -68,3 +68,28 @@ img:hover {
 }
 
 
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    /* fallback for old browsers */
+
+    background: linear-gradient(purple,green);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
